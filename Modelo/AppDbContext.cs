@@ -4,4 +4,5 @@ public class AppDbContext : DbContext
 {
     public AppDbContext(DbContextOptions<AppDbContext> options) : base(options) { }
     public DbSet<Alumno> Alumnos { get; set; }
+    public DbSet<Carlos_Marroquin_3364> Carlos_Marroquin_3364 { get; set; }
 }
